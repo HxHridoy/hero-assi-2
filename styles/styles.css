@@ -93,7 +93,7 @@
 
    animation: gradientMove 4s ease infinite;
    transition: transform 0.3 ease-in-out;
-   background-size: 300%;
+   background-size: 300% 300%;
 
 
 }
@@ -115,6 +115,11 @@
 }
 
 
+.humburger-imge {
+  display: none;
+}
+
+
 
 
 
@@ -122,5 +127,21 @@
 header {
   padding: 15px 0 100px 0;
   background-image: url(../assets/hero-bg.png);
+}
 
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+.menus, .menu-links a {
+  display: none;
+}
+
+.btn-1 {
+  display : none;
+}
+
+.humburger-imge {
+  display: block;
+}
 }
