@@ -4,3 +4,123 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
+
+
+
+
+/* colors */
+:root {
+  --white-color: #ffffff;
+  --yellow-color: rgba(247, 233, 63, 1);
+  --pink-color: rgba(251, 9, 180, 1);
+  --deepblue-color: rgba(145, 0, 248, 1);
+  --green-color: #00FF88;
+
+  /* fonts-size */
+  --sub-title: 3rem;
+  --text: 1.25rem;
+}
+
+
+
+
+/* navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 0 auto;
+  /* border: 1px solid var(--green-color); */
+  align-items: center;
+}
+
+.horizontal-line {
+  color: rgba(128, 128, 128, 0.562);
+  margin: 25px 0;
+}
+
+.menus ul {
+  display: flex;
+  gap: 34px;
+}
+
+.menu-items a:hover {
+  color: var(--pink-color);
+}
+
+
+.brand-logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.brand-span {
+  font-size: 2rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+
+
+.menus, .menu-links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+
+.btn-1 {
+  padding: 11px 20px;
+  /* border: 1px solid var(--green-color); */
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-color);
+  cursor: pointer;
+  border-radius: 1000px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(45deg, 
+   rgba(247, 233, 63, 1),
+   rgba(251, 9, 180, 1),
+   rgba(145, 0, 248, 1));
+
+   animation: gradientMove 4s ease infinite;
+   transition: transform 0.3 ease-in-out;
+   background-size: 300%;
+
+
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn-1:hover {
+  transform: scale(1.08);
+}
+
+
+
+
+
+/* Header styling */
+header {
+  padding: 15px 0 100px 0;
+  background-image: url(../assets/hero-bg.png);
+
+}
