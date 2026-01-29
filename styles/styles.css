@@ -15,6 +15,8 @@
   --pink-color: rgba(251, 9, 180, 1);
   --deepblue-color: rgba(145, 0, 248, 1);
   --green-color: #00FF88;
+  --bg-1-color: rgba(26, 11, 46, 1);
+  --bg-2-color: rgba(35, 14, 61, 1);
 
   /* fonts-size */
   --sub-title: 3rem;
@@ -32,6 +34,12 @@
   margin: 0 auto;
   /* border: 1px solid var(--green-color); */
   align-items: center;
+}
+
+#nav-bg {
+  background-color: var(--bg-1-color);
+  padding: 30px 0 24px 0 ;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.253);
 }
 
 .horizontal-line {
@@ -94,9 +102,18 @@
    animation: gradientMove 4s ease infinite;
    transition: transform 0.3 ease-in-out;
    background-size: 300% 300%;
-
-
 }
+
+
+/* Hero Secion styling */
+.hero-image {
+  background-repeat: no-repeat;
+}
+
+.hero-div {
+  margin-top: 0px;
+}
+
 
 @keyframes gradientMove {
   0% {
@@ -123,10 +140,14 @@
 
 
 
-/* Header styling */
-header {
+/* Hero styling */
+.hero-div {
   padding: 15px 0 100px 0;
   background-image: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 760px; */
 }
 
 
