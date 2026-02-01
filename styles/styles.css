@@ -260,21 +260,27 @@ padding-bottom: 200px;
   display : none;
 }
 
+.techwave-name {
+  margin-left: 30px;
+}
+
 .humburger-imge {
   display: block;
+  margin-right: 30px;
 }
 
 
 /* Hero Responsive */
-.hero-center-div {
-  padding: ;
+.hero-div {
+/* width: 100%;
+height: auto; */
 }
+
 
 .hero-center-div {
   width: 400px;
-  height: 386px;
+  height: 386px; 
   margin: 0 auto;
-  padding-bottom: 450px;
 }
 
 .hero-title {
@@ -282,9 +288,52 @@ padding-bottom: 200px;
   font-weight: 800;
 }
 
-
-
+.hero-description {
+  width: 70%;
 }
+
+/* ============================== */
+.hero-center-div {
+  width: 100%;
+  height: auto;
+}
+
+.hero-div-images {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.hero-image-1 {
+  width: 100%;
+  position: absolute;
+}
+
+.hero-image-2 {
+  width: 46px;
+  height: 70px;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+  top: 65px;
+  
+}
+
+.btn-2 {
+  top: 15px;
+  transform: translateX(65px);
+}
+
+.hero-div {
+background-repeat: no-repeat;
+background-position: top center;
+padding-bottom: 0px;
+background-size: cover;
+width: 100%;
+}
+}
+
 
 
 
