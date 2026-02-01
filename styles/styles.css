@@ -142,13 +142,111 @@
 
 /* Hero styling */
 .hero-div {
-  padding: 15px 0 100px 0;
-  background-image: url(../assets/hero-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* height: 760px; */
+background-image: url(../assets/hero-bg.png);
+/* background-repeat: no-repeat; */
+background-position: top center;
+padding-bottom: 200px;
 }
+
+.hero-center-div {
+  width: 550px;
+  height: 558px;
+  margin: 0 auto;
+  padding: 101px 0;
+  text-align: center;
+  justify-items: center;
+}
+
+.hero-div-images {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.hero-image-1 {
+  width: 100%;
+  position: absolute;
+}
+
+.hero-image-2 {
+  width: 117px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+  top: 80px;
+  
+}
+
+
+.btn-2 {
+  padding: 6px 20px;
+  font-size: 18px;
+  font-weight: 600px;
+  background-color: var(--green-color);
+  border: none;
+  border-radius: 1000px;
+  position: absolute;
+  z-index: 3;
+  top: 15px;
+  /* right: 5px; */
+  transform: translateX(90px);
+}
+
+
+.hero-title {
+  font-size: 3.75rem;
+  font-weight: 800;
+  color: var(--white-color);
+  margin-top: 40px;
+}
+
+.hero-description {
+  color: var(--white-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.btn-3 {
+  padding: 11px 20px;
+  /* border: 1px solid var(--green-color); */
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-color);
+  cursor: pointer;
+  border-radius: 1000px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(45deg, 
+   rgba(247, 233, 63, 1),
+   rgba(251, 9, 180, 1),
+   rgba(145, 0, 248, 1));
+
+   animation: gradientMove 4s ease infinite;
+   transition: transform 0.3 ease-in-out;
+   background-size: 300% 300%;
+}
+
+
+
+
+.btn-4 {
+  padding: 10px 20px;
+  color: var(--green-color);
+  border: 1px solid var(--green-color);
+  border-radius: 1000px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.hero-button-div {
+  margin-top: 24px;
+}
+
+
+
 
 
 
@@ -165,6 +263,27 @@
 .humburger-imge {
   display: block;
 }
+
+
+/* Hero Responsive */
+.hero-center-div {
+  padding: ;
+}
+
+.hero-center-div {
+  width: 400px;
+  height: 386px;
+  margin: 0 auto;
+  padding-bottom: 450px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+
+
 }
 
 
