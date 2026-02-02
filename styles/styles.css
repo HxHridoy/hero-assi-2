@@ -127,7 +127,7 @@
   }
 }
 
-.btn-1:hover {
+.btn-1:hover{
   transform: scale(1.08);
 }
 
@@ -229,7 +229,9 @@ padding-bottom: 200px;
    background-size: 300% 300%;
 }
 
-
+.btn-3:hover{
+  transform: scale(1.08);
+}
 
 
 .btn-4 {
@@ -239,6 +241,12 @@ padding-bottom: 200px;
   border-radius: 1000px;
   margin-left: 8px;
   cursor: pointer;
+}
+
+.btn-4:hover{
+  transform: scale(1.08);
+  border: 1px solid var(--green-color);
+  transition: 0.3s;
 }
 
 .hero-button-div {
@@ -289,7 +297,7 @@ height: auto; */
 }
 
 .hero-description {
-  width: 70%;
+  width: 75%;
 }
 
 /* ============================== */
@@ -327,9 +335,9 @@ height: auto; */
 
 .hero-div {
 background-repeat: no-repeat;
-background-position: center 28%;
+background-position: center 30%;
 padding-bottom: 0px;
-background-size: 150% auto;
+background-size: 100% auto;
 /* width: 100%; */
 background-color: var(--bg-1-color);
 
