@@ -30,7 +30,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 0 auto;
   /* border: 1px solid var(--green-color); */
   align-items: center;
@@ -42,10 +42,6 @@
   border-bottom: 1.5px solid rgba(128, 128, 128, 0.253);
 }
 
-.horizontal-line {
-  color: rgba(128, 128, 128, 0.562);
-  margin: 25px 0;
-}
 
 .menus ul {
   display: flex;
@@ -127,7 +123,8 @@
   }
 }
 
-.btn-1:hover{
+.btn-1:hover,
+.btn-3:hover {
   transform: scale(1.08);
 }
 
@@ -229,10 +226,6 @@ padding-bottom: 200px;
    background-size: 300% 300%;
 }
 
-.btn-3:hover{
-  transform: scale(1.08);
-}
-
 
 .btn-4 {
   padding: 10px 20px;
@@ -255,7 +248,54 @@ padding-bottom: 200px;
 
 
 
+/* About Section */
+.about {
+  background-color: var(--bg-1-color);
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
 
+.about-info {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 0px 80px 0px;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+.about-description-1 {
+  color: var(--white-color);
+}
+
+.about-description-2 {
+  color: var(--white-color);
+  margin-top: 34px;
+
+}
+
+
+.experience {
+  max-width: 1200px;
+  border-top: 1.5px solid rgba(128, 128, 128, 0.253);
+  margin: 0 auto;
+  padding: 80px 0 0px 0px;
+}
+
+.ex-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--green-color);
+}
+
+.short-title {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
 
 
 /* Mobile Responsive */
@@ -341,6 +381,35 @@ background-size: 100% auto;
 /* width: 100%; */
 background-color: var(--bg-1-color);
 
+}
+
+
+
+/* About section Responsive */
+.about {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+
+.about-title {
+  font-size: 2.5rem;
+}
+
+.experience {
+  /* max-width: 1200px; */
+  /* border-top: 1.5px solid rgba(128, 128, 128, 0.253); */
+  /* margin: 0 auto; */
+  /* padding: 80px 0 0px 0px; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.about-info {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 }
 
