@@ -327,10 +327,12 @@ height: auto; */
 
 .hero-div {
 background-repeat: no-repeat;
-background-position: top center;
+background-position: center 28%;
 padding-bottom: 0px;
-background-size: cover;
-width: 100%;
+background-size: 150% auto;
+/* width: 100%; */
+background-color: var(--bg-1-color);
+
 }
 }
 
