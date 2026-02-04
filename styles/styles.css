@@ -388,12 +388,16 @@ padding-bottom: 200px;
 }
 
 .techwave-name {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .humburger-imge {
   display: block;
-  margin-right: 30px;
+  margin-right: 20px;
+}
+
+#nav-bg {
+  padding: 20px 0px;
 }
 
 
@@ -508,6 +512,7 @@ background-color: var(--bg-1-color);
 
 .choose-div {
   padding-top: 20px;
+  gap: 20px;
 }
 }
 
