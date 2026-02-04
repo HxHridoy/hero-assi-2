@@ -377,6 +377,40 @@ padding-bottom: 200px;
   "interview interview resource";
 }
 
+
+/* ================================================ */
+/* Feature Episode section */
+.feature {
+  background-color: var(--bg-1-color);
+  padding: 100px 0px;
+}
+
+.card-time {
+  color: var(--green-color);
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.feature-div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.featute-div-1 {
+  max-width: 380px;
+  max-height: 440px;
+  background-color: var(--bg-2-color);
+  border-radius: 24px;
+}
+
+.for-padding-div {
+  padding: 24px;
+}
+
+
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
 .menus, .menu-links a {
@@ -513,6 +547,20 @@ background-color: var(--bg-1-color);
 .choose-div {
   padding-top: 20px;
   gap: 20px;
+}
+
+/* ============================================================ */
+/* Feature section Responsive */
+.feature-div {
+  padding-top: 40px;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.feature {
+  padding: 40px 0px;
 }
 }
 
