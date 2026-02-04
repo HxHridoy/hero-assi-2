@@ -459,7 +459,7 @@ padding-bottom: 200px;
 /* =============================================== */
 /* Footer */
 footer {
-  background-image: url(/assets/footer-bg.png);
+  background-image: url(../assets/footer-bg.png);
   background-position: center;
   padding: 100px 0px;
 }
