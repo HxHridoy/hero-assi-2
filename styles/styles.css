@@ -450,6 +450,7 @@ padding-bottom: 200px;
   border: 1px solid var(--pink-color); */
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .host-title {
@@ -651,7 +652,8 @@ justify-content: center;
 }
 
 .host {
-  margin: 0px 40px;
+  margin: 0px 20px;
+  padding-top: 60px;
 }
 
 }
