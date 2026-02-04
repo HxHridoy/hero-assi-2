@@ -5,9 +5,6 @@
   font-style: normal;
 }
 
-
-
-
 /* colors */
 :root {
   --white-color: #ffffff;
@@ -81,7 +78,6 @@
 
 .btn-1 {
   padding: 11px 20px;
-  /* border: 1px solid var(--green-color); */
   border: none;
   font-size: 1rem;
   font-weight: 600;
@@ -187,7 +183,6 @@ padding-bottom: 200px;
   position: absolute;
   z-index: 3;
   top: 15px;
-  /* right: 5px; */
   transform: translateX(90px);
 }
 
@@ -207,7 +202,6 @@ padding-bottom: 200px;
 
 .btn-3 {
   padding: 11px 20px;
-  /* border: 1px solid var(--green-color); */
   border: none;
   font-size: 1rem;
   font-weight: 600;
@@ -446,8 +440,6 @@ padding-bottom: 200px;
 }
 
 .icon {
-  /* border-radius: 50%;
-  border: 1px solid var(--pink-color); */
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -463,6 +455,55 @@ padding-bottom: 200px;
 .host-des {
   color: var(--white-color);
 }
+
+/* =============================================== */
+/* Footer */
+footer {
+  background-image: url(/assets/footer-bg.png);
+  background-position: center;
+  padding: 100px 0px;
+}
+
+.footer-div {
+  max-width: 1200px; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-icons { 
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+  padding: 20px 0px 35px 0px;
+}
+
+.footer-title {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.footer-span {
+  background: linear-gradient(45deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+
+.footer-des {
+  color: var(--white-color);
+}
+
+.links a {
+  display: flex;
+  gap: 10px;
+  color: var(--white-color);
+}
+
+
 
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
@@ -489,8 +530,6 @@ padding-bottom: 200px;
 
 
 /* Hero Responsive */
-
-
 .hero-center-div {
   width: 400px;
   height: 386px; 
@@ -626,11 +665,6 @@ background-color: var(--bg-1-color);
 
 }
 
-.host-image {
-  /* width: 400px;
-  height: 200px; */
-}
-
 .host-div {
   width: 100%;
   margin-bottom: 20px;
@@ -656,8 +690,25 @@ justify-content: center;
   padding-top: 60px;
 }
 
+/* ================================================= */
+/* footer Responsive */
+footer {
+  padding: 40px 0px;
 }
 
+.footer-title {
+  font-size: 2rem;
+}
+
+.footer-icons { 
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px 50px;
+}
+}
 
 
 
